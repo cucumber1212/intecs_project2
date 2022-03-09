@@ -1,0 +1,12 @@
+@charset "utf-8";
+.mypage-title {
+	margin: 20px 0 20px 0;
+	font-size: 1.6rem;
+}
+.mypage-nothing {
+	margin-top: 20px;
+}
+.mypage-nothing a {
+	text-decoration: underline;
+}
+

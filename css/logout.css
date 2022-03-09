@@ -1,0 +1,9 @@
+@charset "utf-8";
+.logout-message a {
+	text-decoration: underline;
+}
+.logout-message {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+

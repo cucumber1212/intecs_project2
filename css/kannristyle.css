@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.manager_table {
+	border-collapse:separate;
+	border-spacing: 8px 2px;
+	table-layout: fixed;
+}
+.manager_table input[type="text"] {
+	width: 100%;
+}
+td input[type="checkbox"] {
+	margin: auto auto auto 14px;
+}
+
+.manager_list li {
+	display: inline;
+	margin-right: 4px;
+}
+
+.manager_id {
+	width: 80px;
+}
+
+.manager_foodname {
+	width: 150px;
+}
+.manager_price {
+	width: 40px;
+}
+.manager_comment {
+	width: 800px;
+}
+td textarea {
+	width: 100%;
+	height: 60px;
+}
+
+.manager_username {
+	width: 90px;
+}
+.manager_address {
+	width: 220px;
+}
+.manager_phone {
+	width: 120px;
+}
+.manager_cellphone {
+	width: 120px;
+}
+.manager_mailaddress {
+	width: 220px;
+}
+.manager_loginname {
+	width: 120px;
+}
+.manager_password {
+	width: 120px;
+}
+.manager_paymoment {
+	width: 120px;
+}
+.manager_payee {
+	width: 120px;
+}
+.manager_delete {
+	width: 40px;
+}

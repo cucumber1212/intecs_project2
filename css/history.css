@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.history-wrraper{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.history-title {
+	width: 600px;
+	background-color: #ffffff;
+	border: 2px solid #e60012;
+	border-radius: 100px 100px;
+	padding: 10px 0;
+	font-size: 1.3rem;
+	color: #e60012;
+	margin: 0 auto;
+}
+.history-purchaseid {
+	background-color: #e6e6fa;
+	width: 600px;
+	text-align: center;
+	margin: 15px auto;
+	padding: 10px;
+	border-radius: 5px;
+}
+.history-buyday {
+	background-color: #e60012;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 6px;
+	font-weight: 600;
+	border-radius: 5px;
+}
+.history-table {
+	margin: 20px auto;
+}
+.history-table img {
+	width: 200px;
+}
+.history-table_food-name {
+	font-weight: 600;
+}
+.history-table th, .history-table td{
+	vertical-align: middle;
+	padding: 5px 10px;
+	width: 230px;
+}
+.history-table_subtotal {
+	border-top: 1px solid #000000;
+}
+.history-purchase_id {
+	border: 1px solid #e60012;
+	border-radius: 5px;
+	color: #e60012;
+	background-color: #ffffff;
+	padding: 5px 10px;
+	margin-right: 130px;
+	display: inline-block;
+}
+.history-total {
+	display: inline-block;
+	padding-top: 10px;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+.history-nothing {
+	margin-top: 20px;
+}

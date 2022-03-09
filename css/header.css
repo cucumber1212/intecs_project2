@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+.header {
+	position: relative;
+	text-align: center;
+	height: 160px;
+	font-family: 'Kaisei HarunoUmi', serif;
+	font-size: 0.9rem;
+	background-color: #ffbb08;
+}
+.site-logo img {
+	width: 400px;
+}
+.site-logo a:hover{
+	opacity: inherit;
+}
+.menu ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 8px;
+}
+.menu ul li:hover {
+	opacity: 0.5;
+}
+.menu ul li img {
+	height: 30px;
+	margin: 5px;
+	vertical-align: middle;
+}
+.menu ul li span {
+	vertical-align: middle;
+}
+.hello {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+.header-line {
+	width: 100%;
+	background-image: url(../images/sikiri_S.png);
+	background-repeat: repeat-x;
+}

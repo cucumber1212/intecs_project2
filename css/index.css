@@ -1,0 +1,53 @@
+@charset "utf-8";
+main {
+  max-width: 100%;
+}
+label {
+  cursor:pointer
+}
+.stat-shopping:hover {
+  opacity: 0.5;
+  transition-duration: 1s;
+}
+.index-button {
+  margin: 50px 0;
+}
+.index-button img{
+   width: 400px;
+}
+.index-slider1 img, .index-slider2 img{
+  height: 150px;
+  width: 100%;
+}
+.shindan-link {	
+  position: fixed;
+  z-index: 1000;
+  right: 30px;
+  top: 70px;
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: #e60012 3px solid;
+}
+.shindan-link span {
+  color: #e60012;
+  font-family: 'Kaisei HarunoUmi', serif;
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width :130px;
+  text-align:center;
+  font-size: 1.5rem;
+}
+.shindan-link:hover {
+  top: 65px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.8);
+}
+a:hover {
+	opacity: 1;
+}

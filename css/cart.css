@@ -1,0 +1,77 @@
+@charset "UTF-8";
+main {
+	padding-bottom: 20px;
+}
+.cart-wrapper {
+	margin: 20px 0 40px 0;
+}
+.cart-content {
+	margin: 0 auto;
+	background-color: #e6e6fa;
+	width: 600px;
+	border-radius: 5px;
+	padding-top: 20px;
+}
+.cart-insert_message {
+	margin-top: 20px;
+}
+.cart-title {
+	margin: 20px 0;
+	font-size: 1.6rem;
+}
+.cart-table {
+	margin: 0 auto 30px auto;
+}
+.cart-table th, .cart-table td {
+	padding: 10px;
+	text-align: center;
+	vertical-align: middle;
+	/*border: 1px solid #555555; */
+}
+.cart-table_total, .cart-table_subtotal {
+	border-top: 1px solid #000000;;
+}
+.cart-table_total {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+.cart-food_name {
+	font-weight: 600;
+}
+.cart-delete {
+	color: #e60012;
+}
+.cart_register {
+	color: #ffffff;
+	background-color: #e60012;
+	padding: 10px 100px;
+	border-radius: 100px 100px;
+	vertical-align: middle;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+.cart-image {
+	width: 50px;
+	vertical-align: middle;
+}
+.cart_delete-message {
+	margin-top: 20px;
+}
+ .cart-login {
+	text-decoration: underline;
+}
+.cart_nothing-message {
+	margin-top: 20px;
+}
+.cart-insert_message a {
+	margin-top: 15px;
+	color: #e60012;
+	background-color: #ffffff;
+	border: 2px solid #e60012;
+	padding: 5px 50px;
+	border-radius: 100px 100px;
+	font-weight: 600;
+}
+.cart-loginmessage {
+	margin-top: 20px;
+}

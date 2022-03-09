@@ -1,0 +1,36 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+.footer {
+	position: absolute;
+	height: 140px;
+	bottom: 0;
+	width: 100%;
+	padding-top: 10px;
+	background-color: #686868;
+	color: #ffffff;
+	font-size: 1rem;
+	text-align: center;
+	font-family: 'Kaisei HarunoUmi', serif;
+}
+.footer-wrapper {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.footer nav {
+	text-align: left;
+}
+.footer nav ul {
+	display: inline-block;
+	margin-left: 20px;
+}
+.footer nav ul li {
+	margin-top: 5px;
+}
+.footer p{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.footer-links:hover {
+	opacity: 0.5;
+}

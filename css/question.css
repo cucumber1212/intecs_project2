@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+
+.select {
+	background-color: #e6e6fa;
+}
+
+.q_body{
+	text-align: left;
+}
+
+.q_form div{
+	padding:12px;
+}
+
+.q_waku {
+	padding: 5px 0;
+	margin-bottom: 40px;
+}
+
+h2{
+	margin-top: 20px;
+	padding:10px 0;
+	font-weight: bold;
+	font-size: 25px;
+
+}
+
+.kakunin_table b{
+	margin-top: 20px;
+	padding:10px 0;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+input[type="text"]{
+	width: 270px;
+	border: 2px solid #000 ;
+	padding: 3px 5px;
+	margin-top: 5px;
+}
+select {
+	width: 180px;
+	border: 2px solid #000 ;
+	margin-top: 5px;
+}
+textarea{
+	width: 30em;
+	height: 6em;
+	border: 2px solid #000 ;
+	padding: 3px 5px;
+	margin-top: 5px;
+}
+
+.arigatou{
+	margin-top: 100px;
+	text-align: center;	
+	font-size: 20px;
+	font-weight: bold;
+	width: auto;
+}
+
+
+.alart_text{
+	padding-top: 10px;
+	font-size: 0.8em;
+}
+
+.alart_text b{
+	padding-top: 20px;
+	width: 400px;
+	font-size: 1em;
+}
+
+.button{
+	margin: 20px 0;
+	 display       : inline-block;
+  border-radius : 10px;          /* 角丸       */
+  font-size     : 14pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 8px 10px;   /* 余白       */
+  background    : #999999;     /* 背景色     */
+  color         : #000000;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 2px solid #999999;    /* 枠の指定 */
+}
+
+.q-padding {
+	padding: 12px;
+}
+.q-message {
+	margin-bottom: 50px;
+}
+.q_item {
+	width: 500px;
+	padding-bottom: 3px;
+	border-bottom: dashed 3px #e60012;
+}
